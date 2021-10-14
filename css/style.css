@@ -7,3 +7,34 @@
 body {
  font-family: "Montserrat", sans-serif;
 }
+
+main {
+ height: calc(100vh - 80px);
+ background-color: tomato;
+}
+
+.main-top {
+ display: flex;
+ justify-content: flex-end;
+ padding: 10px;
+}
+
+.speaker,
+.resize {
+ padding: 5px 10px;
+ background-color: rgb(57, 57, 57);
+ color: white;
+ border-radius: 5px;
+ font-size: 12px;
+ margin-right: 5px;
+}
+
+.speaker i {
+ margin-right: 5px;
+}
+
+footer {
+ height: 80px;
+ background-color: rgb(50, 50, 122);
+ width: 100%;
+}
